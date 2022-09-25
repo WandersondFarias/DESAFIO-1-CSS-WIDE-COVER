@@ -98,6 +98,12 @@ p {
     
 }
 
+button:hover {
+    background-color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+   }
+
 @media screen and (max-width: 650px) {
     .logo-img {
         display: block;
@@ -162,11 +168,5 @@ p {
         position: relative;
         left: 280px;
     }
-    button:hover {
-        background-color: blue;
-        transition: 0.5s;
-        cursor: pointer;
-       }
-
-   
+    
 }
